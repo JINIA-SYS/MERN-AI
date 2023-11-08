@@ -1,0 +1,50 @@
+{
+    "data": {
+        "Images": [
+            {
+                "b64_json": "UklGRsA0AgBXRUJQVlA4ILQ0AgAw/QedASoABAAEPjEYikOiIaEkI7NJoIAGCWdrt8/gH4q+Eyjf4/d80GMX9fmj4aHTb6Sf9rnlf//fiU5LuFGai4tt7H9l5RyddQN5hOabSJ87yl92211odc41wNZDeZfE76j+L/0Xvy/2vAz4r/p+XL7B/TfqT81fnt/v/+7/qv9b8Uf6x/nv+3/mv36+hP+lf4f/o/43/Zftl9TP+x/6v9h77P3F/9v7X/Bj+qf4j/wf4/9+P+d9WH/i/cL3m/6X/k/uP/ivkL/yH+8/83Y+f6v/1f//3L/6l/qP/F7U3/t/dH/h/MH/c/+l+4f++96r/5f6j9//kA//3t1fwD/8+3/2Jv/38//1T/O75/0r7z/",
+                "revised_prompt": "A scene depicting a middle-aged Caucasian man, with spectacles and a gray beard, sitting in a dimly lit room before a computer. His face is subtly illuminated by the computer's light, showcasing expressions of wonder and intrigue, suggestive of a deep emotional connection. The computer sits on a vintage oak desk strewn with scattered sheets of papers and books. The digital art piece has abundant use of shadows and soft lighting effects to create an atmospheric, sentimental ambiance."
+            }
+        ]
+    },
+
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+        "content-length": "193315",
+        "content-type": "application/json; charset=utf-8"
+    },
+    "config": {
+        "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+        },
+        "adapter": [
+            "xhr",
+            "http"
+        ],
+        "transformRequest": [
+            null
+        ],
+        "transformResponse": [
+            null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/json"
+        },
+        "method": "post",
+        "url": "http://localhost:8800/api/v1/dalle",
+        "data": "{\"headers\":{\"Content-Type\":\"application/json\"},\"prompts\":\"A Man falling in Love with his Computer, digital art\"}"
+    },
+    "request": {}
+}
+
+
